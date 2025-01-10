@@ -69,7 +69,13 @@
             margin: 1rem 0;
         }
 
-        @media only screen and (max-width: 800px) {
+        .flex{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        @media only screen and (max-width: 1000px) {
             .logo {
 
                 flex-direction: column-reverse;
@@ -105,9 +111,13 @@
             <img src="computomanzia.svg" alt="">
 
         </div>
+
+        <div class="flex">
         <p class="text">Computomanzia ⇔ <a href="http://federicoponi.it">Federico Poni</a>
             <!-- <-> <a href="http://federicoponi.it/alchimia_ultraterritoriale">Alchimia Ultratterritoriale</a>-->
         </p>
+        <p>(The total weight of this website is 79kb)</p>
+        </div>
 
     </div>
     <div class="portfolio">
